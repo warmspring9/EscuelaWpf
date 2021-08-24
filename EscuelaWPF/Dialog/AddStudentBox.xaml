@@ -1,0 +1,113 @@
+﻿<local:BaseDialogUserControl x:Class="EscuelaWPF.AddStudentBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             x:Name="dialogWindow"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EscuelaWPF"
+             mc:Ignorable="d"  
+             >
+    <Grid Background="{StaticResource ForegroundVeryLightBrush}" Margin="20 0 20 0" Width="700">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Border Background="{StaticResource ForegroundLightBrush}" CornerRadius="10" 
+                    Grid.Column="0" Grid.Row="1" Grid.RowSpan="4"
+                    Margin="6 30 6 0">
+            <Image Name="profilePhoto"
+                   Source="{Binding Image, Converter={local:Base64ToImage}}" />
+        </Border>
+        <TextBox Text="{Binding Image}" FontSize="8" Name="imageText" Visibility="Collapsed"/>
+        <Button Content="Cambiar Imagen" Grid.Column="0" Grid.Row="5"
+                    Click="Button_Click_1" Visibility="Visible" Margin="6"
+                    HorizontalAlignment="Center" FontSize="14"/>
+        <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="7" >
+            <TextBlock Text="{Binding DocumentHint, FallbackValue=Documento}" Margin="5" FontSize="20" FontFamily="Lato" VerticalAlignment="Center"/>
+            <DatePicker Height="25" HorizontalAlignment="Center" x:Name="datePicker2" VerticalAlignment="Center" 
+                    SelectedDateChanged="datePicker2_SelectedDateChanged"/>
+        </StackPanel>
+        <Button Content="Subir Documento" Grid.Column="0" Grid.Row="8"
+                    Click="Button_Click" Visibility="Visible" Margin="6"
+                    HorizontalAlignment="Center" FontSize="12"/>
+
+
+        <TextBlock Text="{Binding NameHint, FallbackValue=Label}" Margin="10 20 10 0"
+                       VerticalAlignment="Center" FontSize="20" Grid.Row="1"
+                       FontFamily="Lato" Grid.Column="1"/>
+
+        <TextBox Text="{Binding EditName}"
+                     Grid.Column="2" Background="Transparent"
+                     FontFamily="Lato" Grid.Row="1"
+                     Padding="2" FontSize="18"
+                     Margin="11,11,15,8"/>
+        <TextBlock Text="{Binding IdHint, FallbackValue=Label}" Margin="10 20 10 0"
+                       VerticalAlignment="Center" FontSize="20" Grid.Column="1"
+                       FontFamily="Lato" Grid.Row="2"/>
+
+        <TextBox Text="{Binding EditId}" Grid.Row="2"
+                     Grid.Column="2" Background="Transparent"
+                     FontFamily="Lato"
+                     Padding="2" FontSize="18"
+                     Margin="11 11 15 8"/>
+        <TextBlock Text="{Binding LastNameHint, FallbackValue=Label}" Margin="10 20 10 0"
+                       VerticalAlignment="Center" FontSize="20" Grid.Row="3"
+                       Grid.Column="1" FontFamily="Lato"/>
+
+        <TextBox Text="{Binding EditLastName}"
+                     Grid.Column="2" Background="Transparent"
+                     FontFamily="Lato" Grid.Row="3"
+                     Padding="2" FontSize="18"
+                     Margin="11 11 15 8"/>
+        <TextBlock Text="{Binding PhoneNumberHint, FallbackValue=Label}" Margin="10 20 10 0"
+                       VerticalAlignment="Center" FontSize="20" Grid.Row="4"
+                       Grid.Column="1" FontFamily="Lato"/>
+
+        <TextBox Text="{Binding EditPhoneNumber}" Grid.Row="4"
+                     Grid.Column="2" Background="Transparent"
+                     FontFamily="Lato"
+                     Padding="2" FontSize="18"
+                     Margin="11 11 15 8"/>
+        <TextBlock Text="{Binding GuardianHint, FallbackValue=Label}" Margin="10 20 10 0"
+                       VerticalAlignment="Center" FontSize="20" Grid.Row="5"
+                       Grid.Column="1" FontFamily="Lato"/>
+
+        <TextBox Text="{Binding EditGuardian}" Grid.Row="5"
+                     Grid.Column="2" Background="Transparent"
+                     FontFamily="Lato" x:Name="GuardianField"
+                     Padding="2" FontSize="18" LostFocus="GuardianField_LostFocus"
+                     Margin="11 11 15 8"/>
+        <TextBlock Text="Sin Encargado" VerticalAlignment="Center" FontSize="16" FontFamily="Lato" Margin="10 0 10 20" x:Name="GuardianResult"
+                   Grid.Column="2" Grid.Row="6" HorizontalAlignment="Center"/>
+
+        <TextBlock Text="{Binding SectionHint, FallbackValue=Label}" Margin="10 20 10 0"
+                       VerticalAlignment="Center" FontSize="20" Grid.Column="1" Grid.Row="7"
+                       FontFamily="Lato"/>
+        <TextBox Text="{Binding EditSection}" Grid.Row="7"
+                     Grid.Column="2" Background="Transparent"
+                     FontFamily="Lato" x:Name="SectionField" LostFocus="SectionField_LostFocus"
+                     Padding="2" FontSize="18"
+                     Margin="11 11 15 8"/>
+        <TextBlock Text="Sin Seccion" VerticalAlignment="Center" FontSize="16" FontFamily="Lato" Margin="10 0 10 20" x:Name="SectionResult"
+                   Grid.Column="2" Grid.Row="8" HorizontalAlignment="Center"/>
+        <Button Content="Save" Grid.Row="9" Grid.ColumnSpan="2"
+                Margin="5" FontSize="18" Grid.Column="1"
+                Command="{Binding SaveCommand, Mode=OneWay}"
+                CommandParameter="{Binding ElementName=dialogWindow}"
+                />
+    </Grid>
+</local:BaseDialogUserControl>

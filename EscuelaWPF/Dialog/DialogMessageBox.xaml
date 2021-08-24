@@ -1,0 +1,19 @@
+﻿<local:BaseDialogUserControl x:Class="EscuelaWPF.DialogMessageBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EscuelaWPF"
+             mc:Ignorable="d" 
+             >
+    <StackPanel Background="{StaticResource ForegroundVeryLightBrush}">
+        <TextBlock Text="{Binding Message, FallbackValue=Message}"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontFamily="Lato" Padding="15" FontSize="18"
+                   Foreground="{StaticResource BackgroundDarkBrush}"/>
+        <Button Content="{Binding OkText, FallbackValue=Continue}"
+                Margin="5" FontSize="18"
+                Command="{Binding CloseCommand, RelativeSource={RelativeSource FindAncestor, AncestorType=local:BaseDialogUserControl}}"
+                />
+    </StackPanel>
+</local:BaseDialogUserControl>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Controls\Inputs\TextEntryControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\MenuItems\MenuItemControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\MenuItems\MenuItemList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\Menu\VerticalBaseMenuControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\Modals\AddGroupModal.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\PageHost.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\SettingsControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\SideMenuControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialog\DialogMessageBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\LoginPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\MenuPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Controls\Inputs\PasswordEntryControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\Inputs\CompoundEntryControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\Inputs\DateEntryControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\Inputs\TextEntryControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\MenuItems\DeletableMenuItemControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\MenuItems\MenuItemControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\MenuItems\DeletableMenuItemList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\MenuItems\MenuItemList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\Menu\VerticalBaseMenuControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\Modals\AddGroupModal.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\PageHost.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\SettingsControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\SideMenuControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DialogWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialog\AddAttendanceBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialog\AddAuthorizationBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialog\AddAccessBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialog\AddStudentBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialog\AddSectionBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialog\AddTeacherBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialog\DialogMessageBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\StudentDetailsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SectionDetailsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\TeacherDetailsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\MenuPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Windows.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Buttons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Texts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Colors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

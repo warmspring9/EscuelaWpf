@@ -1,0 +1,12 @@
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Service\bin\Debug\net5.0\EscuelaWPF.Service.deps.json
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Service\bin\Debug\net5.0\EscuelaWPF.Service.dll
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Service\bin\Debug\net5.0\ref\EscuelaWPF.Service.dll
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Service\bin\Debug\net5.0\EscuelaWPF.Service.pdb
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Service\obj\Debug\net5.0\EscuelaWPF.Service.csproj.AssemblyReference.cache
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Service\obj\Debug\net5.0\EscuelaWPF.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Service\obj\Debug\net5.0\EscuelaWPF.Service.AssemblyInfoInputs.cache
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Service\obj\Debug\net5.0\EscuelaWPF.Service.AssemblyInfo.cs
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Service\obj\Debug\net5.0\EscuelaWPF.Service.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Service\obj\Debug\net5.0\EscuelaWPF.Service.dll
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Service\obj\Debug\net5.0\ref\EscuelaWPF.Service.dll
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Service\obj\Debug\net5.0\EscuelaWPF.Service.pdb

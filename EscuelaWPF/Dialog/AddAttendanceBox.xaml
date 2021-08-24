@@ -1,0 +1,36 @@
+﻿<local:BaseDialogUserControl x:Class="EscuelaWPF.AddAttendanceBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             x:Name="dialogWindow"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EscuelaWPF"
+             mc:Ignorable="d"  
+             >
+    <StackPanel Background="{StaticResource ForegroundVeryLightBrush}">
+        <TextBlock Text="{Binding UsernameHint, FallbackValue=Label}" Margin="10 20 10 0"
+                       VerticalAlignment="Center" FontSize="20"
+                       FontFamily="Lato"/>
+
+        <TextBox Text="{Binding EditUsername}"
+                     Grid.Column="1" Background="Transparent"
+                     FontFamily="Lato"
+                     Padding="2" FontSize="18"
+                     Margin="11 11 15 8"/>
+        <TextBlock Text="{Binding PasswordHint, FallbackValue=Label}" Margin="10 20 10 0"
+                       VerticalAlignment="Center" FontSize="20"
+                       FontFamily="Lato"/>
+
+        <TextBox Text="{Binding EditPassword}"
+                     Grid.Column="1" Background="Transparent"
+                     FontFamily="Lato"
+                     Padding="2" FontSize="18"
+                     Margin="11 11 15 8"/>
+
+        <Button Content="Save"
+                Margin="5" FontSize="18"
+                Command="{Binding SaveCommand, Mode=OneWay}"
+                CommandParameter="{Binding ElementName=dialogWindow}"
+                />
+    </StackPanel>
+</local:BaseDialogUserControl>

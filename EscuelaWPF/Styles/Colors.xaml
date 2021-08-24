@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:EscuelaWPF">
+    <Color x:Key="BackgroundLight">#efefef</Color>
+    <SolidColorBrush x:Key="BackgroundLightBrush" Color="{StaticResource BackgroundLight}"/>
+    <Color x:Key="BackgroundVeryLight">#fafafa</Color>
+    <SolidColorBrush x:Key="BackgroundVeryLightBrush" Color="{StaticResource BackgroundVeryLight}"/>
+    <Color x:Key="BackgroundMain">#686868</Color>
+    <SolidColorBrush x:Key="BackgroundMainBrush" Color="{StaticResource BackgroundMain}"/>
+    <Color x:Key="BackgroundDark">#000000</Color>
+    <SolidColorBrush x:Key="BackgroundDarkBrush" Color="{StaticResource BackgroundDark}"/>
+
+    <Color x:Key="ForegroundVeryLight">#ffffff</Color>
+    <SolidColorBrush x:Key="ForegroundVeryLightBrush" Color="{StaticResource ForegroundVeryLight}"/>
+    <Color x:Key="ForegroundLight">#bdbdbd</Color>
+    <SolidColorBrush x:Key="ForegroundLightBrush" Color="{StaticResource ForegroundLight}"/>
+
+    <!--Main App Colors-->
+    <Color x:Key="LightBlue">#21497a</Color>
+    <SolidColorBrush x:Key="LightBlueBrush" Color="{StaticResource LightBlue}"/>
+    <Color x:Key="DarkBlue">#0d294b</Color>
+    <SolidColorBrush x:Key="DarkBlueBrush" Color="{StaticResource DarkBlue}"/>
+    <Color x:Key="Grey">#929ca3</Color>
+    <SolidColorBrush x:Key="GreyBrush" Color="{StaticResource Grey}"/>
+    <Color x:Key="Gold">#f3be47</Color>
+    <SolidColorBrush x:Key="GoldBrush" Color="{StaticResource Gold}"/>
+    <Color x:Key="Ancient">#ac9a66</Color>
+    <SolidColorBrush x:Key="AncientBrush" Color="{StaticResource Ancient}"/>
+
+</ResourceDictionary>

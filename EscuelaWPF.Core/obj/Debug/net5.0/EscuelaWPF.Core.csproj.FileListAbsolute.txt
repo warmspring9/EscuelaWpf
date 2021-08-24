@@ -1,0 +1,16 @@
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\bin\Debug\net5.0\EscuelaWPF.Core.deps.json
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\bin\Debug\net5.0\EscuelaWPF.Core.dll
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\bin\Debug\net5.0\ref\EscuelaWPF.Core.dll
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\bin\Debug\net5.0\EscuelaWPF.Core.pdb
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\obj\Debug\net5.0\EscuelaWPF.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\obj\Debug\net5.0\EscuelaWPF.Core.AssemblyInfoInputs.cache
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\obj\Debug\net5.0\EscuelaWPF.Core.AssemblyInfo.cs
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\obj\Debug\net5.0\EscuelaWPF.Core.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\obj\Debug\net5.0\EscuelaWPF.Core.csproj.Fody.CopyLocal.cache
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\obj\Debug\net5.0\EscuelaWPF.Core.dll
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\obj\Debug\net5.0\ref\EscuelaWPF.Core.dll
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\obj\Debug\net5.0\EscuelaWPF.Core.pdb
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\obj\Debug\net5.0\EscuelaWPF.Core.csproj.AssemblyReference.cache
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\bin\Debug\net5.0\EscuelaWPF.Service.dll
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\bin\Debug\net5.0\EscuelaWPF.Service.pdb
+C:\Users\Nicolas\source\repos\EscuelaWPF\EscuelaWPF.Core\obj\Debug\net5.0\EscuelaWPF.Core.csproj.CopyComplete
